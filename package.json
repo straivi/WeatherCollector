@@ -1,0 +1,24 @@
+{
+  "name": "WeatherCollector",
+  "version": "1.0.0",
+  "description": "The Node.js server for collecting info from some weather site’s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straivi/WeatherCollector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/straivi/WeatherCollector/issues"
+  },
+  "homepage": "https://github.com/straivi/WeatherCollector#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
