@@ -40,8 +40,8 @@ let getYandexWeather = html => {
     let fillingTemp = data('.fact__feelings').find('.temp__value').text()
     console.log('ощущается: ' + fillingTemp)
 
-    let weatherState = data('.fact__feelings').find('.link__condition').text()
-    console.log('На улице' + weatherState)
+    let weatherState = data('.fact__feelings').find('.link__condition').text().toLowerCase()
+    console.log('На улице ' + weatherState)
 }
 
 let getGismeteoWeather = html => {
@@ -56,8 +56,8 @@ let getGismeteoWeather = html => {
     fillingTemp = fillingTemp.replace(/\s+/g, '')
     console.log('ощущается: ' + fillingTemp)
 
-    let weatherState = data('.now__desc').text()
-    console.log('На улице' + weatherState)
+    let weatherState = data('.now__desc').text().toLowerCase()
+    console.log('На улице ' + weatherState)
 }
 
 
